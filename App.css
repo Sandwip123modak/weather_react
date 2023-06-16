@@ -1,0 +1,74 @@
+.wetherBg {
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: white;
+  font-weight: 500;
+}
+
+.wetherResultBox {
+  width: 360px;
+  height: 300px;
+}
+
+.weatherIcon {
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.weathorCity {
+  font-size: 35px;
+}
+
+.weathorTemp {
+  font-size: 45px;
+  margin: 0;
+}
+
+.down {
+  background-color: grey;
+}
+
+.weathorSpeed {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.wetherResultBox1 {
+  width: 360px;
+  height: 300px;
+  padding: 8px;
+}
+
+p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 360px) {
+  .wetherResultBox,
+  .wetherResultBox1 {
+    width: 100%;
+  }
+
+  .weatherIcon {
+    margin-top: 1rem;
+    width: 80px;
+    height: 80px;
+  }
+
+  .weathorCity {
+    font-size: 24px;
+  }
+
+  .weathorTemp {
+    font-size: 32px;
+  }
+}
